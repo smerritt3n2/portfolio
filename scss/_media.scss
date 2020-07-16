@@ -1,0 +1,62 @@
+  /* Applies New Setting, Styles and Positions to Windows that are at 1440 Resolution */
+  @media screen and (max-width: 1440px) {
+    .star-container{ /* Adjusts width of "Star Container" to fit page */
+        width:13em;
+        P{font-size: 0.875em;}
+    }
+  }
+
+  /* Applies New Settings, Styles and Positions to Windows that are at 1024 Resolution */
+  @media screen and (max-width: 1024px) {
+      .star-container{
+          position: absolute;
+      }
+  }
+
+  /* Applies New Settings, Styles and Positions to Windows that are at 768 Resolution */
+  @media screen and (max-width: 768px) {
+      .introduction-container{
+          width: 20em;
+      }
+  }
+
+  /* Applies New Settings, Styles and Positions to Windows that are at 425 Resolution */
+@media screen and (max-width: 425px) {
+    .btn-codingL, .btn-projectG {
+        top: 55em;
+    }
+    .content-container {
+        margin-left: 2em;
+        position: relative;
+        p{width:fit-content;}
+    }
+    .btn-menu {
+        z-index: 1000;
+    }
+    .data-container {
+        max-width: 22em;
+        img {width: 22em;}
+    }
+    .star-container {
+        display: none;
+    }
+}
+
+  /* Applies New Settings, Styles and Positions to Windows that are at 375 Resolution */
+  @media screen and (max-width: 375px) {
+    .data-container {
+        max-width: 18em;
+        img {width: 18em;}
+    }
+  }
+
+  /* Applies New Settings, Styles and Positions to Windows that are at 320 Resolution */
+  @media screen and (max-width: 320px) {
+      .introduction-container {
+          width: 15em;
+      }
+      .btn-codingL, .btn-projectG {
+          top: 58em;
+          width: 10em;
+      }
+  }

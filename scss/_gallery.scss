@@ -1,0 +1,37 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1em;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #333544;
+    border: 1px solid #ccc; /* Styles the Border of the box */
+    box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset; /* Styles the outer border of the container */
+    border-radius: 3px/6px;
+    text-align: -webkit-center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    max-width: 32em;
+    img {
+        width: 30em;
+        height: 20em;
+        border-radius: 0.4em;
+        margin: 0px auto;
+        transition: transform .5s ease, opacity .5s ease;
+        &:hover { /* Hover Event: Zooms into Image */
+            transform: scale(1.1);
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+    ol li {
+        text-align: left;
+        margin-top: 1em;
+    }
+}
