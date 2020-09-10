@@ -1,41 +1,9 @@
-/* Assembles all Key Styles needed for Web-page */
-*{
-    color: #fff;
-    font-family: 'Source Code Pro', monospace;
+/*========================================================================================
+* Applies Global Elements to web-page + Applies settings/ styles stored in "Partials"
+=========================================================================================*/
+body {
+    background-image: url(https://pics.freeartbackgrounds.com/fullhd/Autumn_Mountain_Road_Background-1135.jpg);
 }
 
-body{
-    background: url(../img/background.png) no-repeat;
-    background-color: #020305;
-}
-
-button {cursor: pointer;}
-.glow:hover {text-shadow: 2px 0px 8px rgb(199, 194, 194); text-decoration: underline;} 
-
-/* Font Family Variables */
-.indie-flower {font-family: 'Indie Flower', cursive;}
-.oribitron {font-family: 'Orbitron', sans-serif;}
-
-/* Global Container Variable */
-.content-container {
-    flex-direction: column;
-    text-align: center;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15em;
-    background-color: #333544;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
-    border-radius: 3px/6px;
-    padding: 1em;
-    width: fit-content;
-    p {width: 30em;}
-}
-
-@import "animation";
-@import "introduction";
-@import "sidebar";
-@import "gallery";
-@import "coding";
-@import "media";
+@import "forms";
+@import "tables";
