@@ -35,3 +35,27 @@
         margin-top: 1em;
     }
 }
+
+.github-container {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 2em;
+        height: 2em;
+        margin: auto 0;
+    }
+    a {
+        margin: auto 0px;
+        text-decoration: none;
+    }
+}
+
+.github-container:hover {
+    background-color: #fff;
+    border-radius: 2em;
+    width: 16em;
+    margin: 0px auto;
+    p {
+        color: black;
+    }
+}
