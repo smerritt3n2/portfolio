@@ -1,3 +1,10 @@
+   /* Applies New Setting, Styles and Positions to Windows that are at 2560 Resolution */
+   @media screen and (max-width: 2560px) {
+    .open-slide {
+        display: none;
+    }
+  }
+  
   /* Applies New Setting, Styles and Positions to Windows that are at 1440 Resolution */
   @media screen and (max-width: 1440px) {
     .star-container{ /* Adjusts width of "Star Container" to fit page */
@@ -15,9 +22,15 @@
 
   /* Applies New Settings, Styles and Positions to Windows that are at 768 Resolution */
   @media screen and (max-width: 768px) {
-      .introduction-container{
-          width: 20em;
-      }
+    .introduction-container{
+        width: 20em;
+    }
+    .open-slide {
+        display: block;
+    }
+    header {
+        display: none;
+    }
   }
 
   /* Applies New Settings, Styles and Positions to Windows that are at 425 Resolution */
