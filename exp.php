@@ -35,9 +35,15 @@
     <article class="article-container">
         <h1>List of Work Experiences</h1>
         <article class="article-content">
-            <div>
-                <h2>Greetings!</h2>
-                <p>Information and details about the web-page will be placed here.</p>
+            <div class="expText"> <!-- Basic Website Testing -->
+                <h2>Testing Websites/ Projects (Basics)</h2>
+                <p>Duirng this experience I was working within a Team where if anyone has a website they need testing. They can contact me and I will carry out the Testing they need on the website they have been working on following company guidelines.</p>
+                <p>This is a list of tests I have currently carried out;</p>
+                    <ul>
+                        <li>Checking 404 Protocols</li>
+                        <li>Checking Hyperlinks</li>
+                        <li>Checking Adaptability of Elements</li>
+                    </ul>
             </div>
             <img src="img/Exp images/role1.png" alt="Testing Websites Role">
         </article>
