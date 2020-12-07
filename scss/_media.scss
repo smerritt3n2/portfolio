@@ -31,6 +31,9 @@
     header {
         display: none;
     }
+    .star-container{
+        top: 1%;
+    }
   }
 
   /* Applies New Settings, Styles and Positions to Windows that are at 425 Resolution */
@@ -41,17 +44,25 @@
     .content-container {
         margin-left: 2em;
         position: relative;
+        width: 34em;
         p{width:fit-content;}
     }
     .btn-menu {
         z-index: 1000;
     }
     .data-container {
-        max-width: 22em;
-        img {width: 22em;}
+        max-width: 32em;
     }
     .star-container {
         display: none;
+    }
+    .side-nav {
+        z-index: 1001;
+    }
+    .grid-container {
+        width: 35em;
+        justify-content: center;
+        margin: 2em;
     }
 }
 
@@ -60,6 +71,33 @@
     .data-container {
         max-width: 18em;
         img {width: 18em;}
+    }
+
+    .content-container {
+        width: 17.5em;
+    }
+
+    .list-sections {
+        width: 21em;
+        font-size: 14px;
+        p {
+            width: 21em;
+        }
+    }
+
+    .list-text-container {
+        li {
+            width: 18em;
+        }
+    }
+    .grid-container {
+        width: 18em;
+    }
+    .github-container {
+        display: block;
+        img {
+            width: 3em;
+        }
     }
   }
 
@@ -71,5 +109,8 @@
       .btn-codingL, .btn-projectG {
           top: 58em;
           width: 10em;
+      }
+      .content-container {
+          width: 15.5em;
       }
   }

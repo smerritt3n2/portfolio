@@ -7,6 +7,7 @@
             <ul>
                 <li><a href="coding.php">Coding Languages</a></li>
                 <li><a href="gallery.php">Project Gallery</a></li>
+                <li><a href="contact.php">Contact Us</a></li>
             </ul>
             </nav>
         </div>

@@ -38,10 +38,6 @@
             <!--======================= Project 3 =======================================-->
             <img src="img/Gallery images/project3.PNG">
             <h1 class="colour-change-b oribitron">Portfolio</h1>
-            <div class="github-container">
-                <img src="img/Gallery images/GitHub_logo.png">
-                <a href="https://github.com/smerritt3n2/portfolio.git"><P>Link to Project</P></a>
-            </div>
             <p>This was a <strong class="glow">solo project</strong> where we have to create an "Online Portfolio" website that shows how much skills, knowledge and understanding we have when it comes to Web-development</p>
             <P>We had to research about "Online Protfolio's" and how programmers make there own protfolios unique and interesting compared to others.</P>
             <ol>
@@ -101,25 +97,8 @@
         </div>
         <div class="data-container">
             <!--======================= Project 7 =======================================-->
-            <img src="img/Gallery images/project7.PNG">
-            <h1 class="colour-change-b oribitron">Solar challenge 1</h1>
-            <div class="github-container">
-                <img src="img/Gallery images/GitHub_logo.png">
-                <a href="https://github.com/smerritt3n2/Solar_Challenge_task1.git"><P>Link to Project</P></a>
-            </div>
-            <p>This was a <strong class="glow">solo challenge</strong> where we have to create a Eletrical Car form that uses "JavaScript" coding to complete problem solving tasks that will display there results within a "Database Table".</p>
-            <p>The theme of the website is based on "Electrical Cars", the roles that I was assigned for this challenge where;</p>
-            <ol>
-                <li class="colour-change-b">Data Validation (Javascript)</li>
-                <li>Generating html Tables (User Inputs)</li>
-                <li class="colour-change-b">Mathmatical Calculations (How much battery life the eletrical cars have)</li>
-            </ol>
-            <!--=========================================================================-->
-        </div>
-        <div class="data-container">
-            <!--======================= Project 8 =======================================-->
             <img src="img/Gallery images/project8.PNG">
-            <h1 class="colour-change-b oribitron">Solar challenge 2</h1>
+            <h1 class="colour-change-b oribitron">Solar challenge</h1>
             <p>This was a <strong class="glow">solo challenge</strong> where we have to create a Eletrical Car form that uses "JavaScript" coding to complete problem solving tasks that will display there results within a seconded "Database Table".</p>
             <p>The theme of the website is based on "Electrical Cars", the roles that I was assigned for this challenge where;</p>
             <ol>
@@ -130,7 +109,7 @@
             <!--=========================================================================-->
         </div>
         <div class="data-container">
-            <!--======================= Project 9 =======================================-->
+            <!--======================= Project 8 =======================================-->
             <img src="img/Gallery images/project9.PNG">
             <h1 class="colour-change-b oribitron">PHP Reflection</h1>
             <p>This was a <strong class="glow">solo challenge</strong> where we have to improve the website project called "Netmatters" by using out php knowledge.</p>
@@ -143,7 +122,7 @@
             <!--=========================================================================-->
         </div>
         <div class="data-container">
-            <!--======================= Project 10 ======================================-->
+            <!--======================= Project 9 =======================================-->
             <img src="img/Gallery images/project10.PNG">
             <h1 class="colour-change-b oribitron">WordPress Reflection</h1>
             <div class="github-container">
@@ -160,7 +139,7 @@
             <!--=========================================================================-->
         </div>
         <div class="data-container">
-            <!--======================= Project 11 ======================================-->
+            <!--======================= Project 10 ======================================-->
             <img src="img/Gallery images/project11.PNG">
             <h1 class="colour-change-b oribitron">Angular Reflection</h1>
             <div class="github-container">
@@ -173,6 +152,36 @@
                 <li class="colour-change-b">Gets Array data form Public API</li>
                 <li>Display the data from array in "HTML Elements"</li>
                 <li class="colour-change-b">Use Angular variables to handle API data array</li>
+            </ol>
+            <!--=========================================================================-->
+        </div>
+        <div class="data-container">
+            <!--======================= Project 11 ======================================-->
+            <img src="img/Gallery images/project12.PNG">
+            <h1 class="colour-change-b oribitron">Laravel Reflection</h1>
+            <div class="github-container">
+                <img src="img/Gallery images/GitHub_logo.png">
+                <a href="https://github.com/smerritt3n2/laravel_reflection.git"><P>Link to Project</P></a>
+            </div>
+            <p>This was a <strong class="glow">solo challenge</strong> where we have to create a admin panel a company member can use to modify the data that is stored within a company database.</p>
+            <p>The project must be coded with "Laravel" systems, demonstrating the knowledge we have for this coding area.</p>
+            <ol>
+                <li class="colour-change-b">Able to use the Create. Read, Update and Delete Function</li>
+                <li>Display all images within the publi folder structure, including details about there file name</li>
+                <li class="colour-change-b">Display Employees that are relavent to companies they work for</li>
+            </ol>
+            <!--=========================================================================-->
+        </div>
+        <div class="data-container">
+            <!--======================= Project 12 ======================================-->
+            <img src="img/Gallery images/project13.PNG">
+            <h1 class="colour-change-b oribitron">Netmatters sysflow</h1>
+            <p>This was a <strong class="glow">solo challenge</strong> where we have to create a web-form an online user can use to help communicate to the company through email and there database.</p>
+            <p>The project was remade within laravel, however it uses php 5.6.40 instead of up-to-date challenging us to adapt to behaviour changes within the code.</p>
+            <ol>
+                <li class="colour-change-b">Able to store input within a pre-existing database</li>
+                <li>Able to use the data input to send an email to the company</li>
+                <li class="colour-change-b">Inform the user if any key information is missing before they submit data</li>
             </ol>
             <!--=========================================================================-->
         </div>
