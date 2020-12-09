@@ -8,5 +8,6 @@
     <a href="index.php">Home</a>
     <a href="coding.php">Coding Language</a>
     <a href="gallery.php">Project Gallery</a>
+    <a href="contact.php">Contact Us</a>
     <a href="#">More...</a>
 </div>
