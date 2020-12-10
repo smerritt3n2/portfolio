@@ -24,7 +24,7 @@
     </nav>
 
     <!--===================================== Title Section =================================-->
-    <div class="content-container">
+    <div class="content-container centre width">
         <h1 class="colour-change-b oribitron">Coding Langauges</h1>
         <p>HTML! CSS! JAVA! and many more! These are the many languages I uses when building web-based projects.</p>
         <p>These are the skills and knowledge I have when it comes to each individual coding method in the <strong>present day!</strong></p>

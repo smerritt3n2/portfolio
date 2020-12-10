@@ -23,7 +23,7 @@
     <!--=====================================================================================-->
     </nav>
 
-    <div class="content-container">
+    <div class="content-container width">
         <h1 class="colour-change-b oribitron">Project Galleries</h1>
         <p>These are the collections of projects/ Websites that I have coded on my own and within pairs. Acceptable HTML, CSS, SCSS and JAVA understanding!</p>
         <p>- Very interested in <strong class="indie-flower glow">front end Development</strong></p>
