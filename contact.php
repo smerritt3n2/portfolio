@@ -26,7 +26,7 @@
     <div class="row">
     
     <!--===================================== Title Section =================================-->
-        <div class="content-container centre">
+        <div class="content-container centre width">
             <h1 class="colour-change-b oribitron">Contact Us!</h1>
             <div class="contact-container">
                 <p>If you have any questions or interests form this website then please contact us on the following details below.</p>
