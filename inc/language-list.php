@@ -201,4 +201,24 @@
             </div>
             <!--=====================================================================================-->
         </div>
+        <div class="list-sections">
+            <!--============================== Laravel Section ======================================-->
+            <img src="img/Coding images/c_logo.png">
+            <div class="list-text-container">
+                <h2>C# Coding:</h2>
+                <i class="fas fa-star star-colour"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <p>I am confortable with general knowledge and basic understanding of C#. C# coding in my eyes is a form of terminal processing language that allows us developers to create command scripts that can be used to help support the usage of data on websites as they can execute commands to handle with data that is gathered from users to be reused later on within the site.</p>
+                <ul>
+                    <li>C# stucture (Understanding How to create C# files + run them)</li>
+                    <li>C# Data types (What data types can be used)</li>
+                    <li>C# Seperating Data (Deviding data into different areas + acessing them)</li>
+                    <li>C# Reusing Commands (Setting variables to copy tasks from pre-existing elements)</li>
+                </ul>
+            </div>
+            <!--=====================================================================================-->
+        </div>
     </div>
