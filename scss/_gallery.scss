@@ -1,3 +1,10 @@
+/*========================== Reusable Colour Variables ========================*/
+$primary: #333544;
+$White: #fff;
+$AltWhite: #ccc;
+$Black: #000;
+/*=============================================================================*/
+
 .grid-container {
     display: flex;
     flex-direction: row;
@@ -9,9 +16,9 @@
 .data-container {
     display: flex;
     flex-direction: column;
-    background-color: #333544;
-    border: 1px solid #ccc; /* Styles the Border of the box */
-    box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset; /* Styles the outer border of the container */
+    background-color: $primary;
+    border: 1px solid $AltWhite; /* Styles the Border of the box */
+    box-shadow: 1px 1px 2px $White inset, -1px -1px 2px $White inset; /* Styles the outer border of the container */
     border-radius: 3px/6px;
     text-align: center;
     padding: 1em;
@@ -52,11 +59,11 @@
 }
 
 .github-container:hover {
-    background-color: #fff;
+    background-color: $White;
     border-radius: 2em;
     width: 16em;
     margin: 0px auto;
     p {
-        color: black;
+        color: $Black;
     }
 }

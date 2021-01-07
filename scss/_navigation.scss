@@ -1,6 +1,10 @@
+/*========================== Reusable Colour Variables ========================*/
+$primary: #333;
+$White: #fff;
+/*=============================================================================*/
+
 /* Applies the Style to the navigational bar elements */
 
-$primary: #333; /* Stores colour variables to be used */
 
 .nav-container {
     width: 80%;
@@ -13,7 +17,7 @@ header {
     padding: 1em 0;
 
     a {
-        color: white;
+        color: $White;
         text-decoration: none;
     }
 

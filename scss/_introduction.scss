@@ -1,3 +1,11 @@
+/*========================== Reusable Colour Variables ========================*/
+$primary: #333544;
+$White: #fff;
+$AltWhite: #ccc;
+$Black: #000;
+$Blue: #38B3DC;
+/*=============================================================================*/
+
 /*========================================================================================
     Button Styles
 =========================================================================================*/
@@ -8,19 +16,19 @@
     padding: 3px;
     width: 5em;
     height: 5em;
-    background-color: #333544;
+    background-color: $primary;
     position: fixed;
     right: 1em;
     top: 1em;
     i, a {font-size: 3em}
     &:hover {
-        background-color: #24252e;
+        background-color: darken($primary, 10%);
         text-shadow: 2px 0px 8px rgb(199, 194, 194);
     }
 }
 
 .btn-codingL, .btn-projectG {
-    background-color: #333544;
+    background-color: $primary;
     position: fixed;
     height: 4em;
     border-radius: 2em;
@@ -49,10 +57,10 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 15em;
-    background-color: #333544;
+    background-color: $primary;
     /* Border Style of Container */
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
+    border: 1px solid $AltWhite;
+    box-shadow: 1px 1px 2px $White inset, -1px -1px 2px $White inset;
     border-radius: 3px/6px; 
     padding: 1em;
 }
@@ -61,7 +69,7 @@
     Colour Variables
 =========================================================================================*/
 .colour-change-b { /* Used to change certain elements within the HTML document */
-    color: #38B3DC;
+    color: $Blue;
     a {
        text-decoration: none;
        &:hover {text-shadow: 2px 0px 8px rgb(199, 194, 194);} 
