@@ -1,3 +1,10 @@
+/*========================== Reusable Colour Variables ========================*/
+$primary: #333544;
+$White: #fff;
+$AltWhite: #ccc;
+$Black: #000;
+/*=============================================================================*/
+
 .contact-container {
     display: flex;
     img {
@@ -20,9 +27,9 @@
 .email-container {
     flex-direction: column;
     flex-wrap: wrap;
-    background-color: #333544;
-    border: 1px solid #ccc;
-    box-shadow: 1px 1px 2px #fff inset, -1px -1px 2px #fff inset;
+    background-color: $primary;
+    border: 1px solid $AltWhite;
+    box-shadow: 1px 1px 2px $White inset, -1px -1px 2px $White inset;
     border-radius: 3px/6px;
     padding: 1em;
     width: 14em;
