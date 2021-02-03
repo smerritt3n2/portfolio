@@ -1,4 +1,0 @@
-Ideas of styles we could apply to the website to improve its performance
-
-o mattfarley.ca Portfolio = Purple (#7510f7) and White (#fff)
-o ianlunn.co.uk = Blue (#006190) and White (#fff)

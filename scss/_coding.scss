@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*========================== Reusable Colour Variables ========================*/
 $primary: #333544;
 $White: #fff;
@@ -49,4 +50,57 @@ $Black: #000;
     border-radius: 3px/6px;
     h3 {text-align: center;}
     p {display: inline;}
+=======
+/*========================== Reusable Colour Variables ========================*/
+$primary: #333544;
+$White: #fff;
+$AltWhite: #ccc;
+$Black: #000;
+/*=============================================================================*/
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: auto;
+}
+
+.list-sections {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: $primary;
+    border: 1px solid $AltWhite; /* Styles the Border of the box */
+    box-shadow: 1px 1px 2px $White inset, -1px -1px 2px $White inset; /* Styles the outer border of the container */
+    border-radius: 3px/6px;
+    padding: 1em;
+    margin: 1em;
+    img {height: 250px;margin: auto;transition: 0.5s;&:hover{transform: rotate(360deg) scale(1.5)}}
+}
+
+.list-text-container {
+    flex-direction: column;
+    p {width: 28em;}
+    li {width: 35em; margin-bottom: 1em;}
+    i{transition: 0.3s;&:hover{transform: rotate(30deg) scale(1.1)}}
+}
+
+.star-colour {
+    color: #FFDF00;
+}
+
+.star-container {
+    position: fixed;
+    top: 7%;
+    left: 1%;
+    padding: 1em;
+    width: 15em;
+    background-color: $primary;
+    border: 1px solid $AltWhite; /* Styles the Border of the box */
+    box-shadow: 1px 1px 2px $White inset, -1px -1px 2px $White inset; /* Styles the outer border of the container */
+    border-radius: 3px/6px;
+    h3 {text-align: center;}
+    p {display: inline;}
+>>>>>>> 2ec4e533341940ca1d3d4305f34d7b15457f5c00
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*========================== Reusable Colour Variables ========================*/
 $primary: #333544;
 $White: #fff;
@@ -66,4 +67,74 @@ $Black: #000;
     p {
         color: $Black;
     }
+=======
+/*========================== Reusable Colour Variables ========================*/
+$primary: #333544;
+$White: #fff;
+$AltWhite: #ccc;
+$Black: #000;
+/*=============================================================================*/
+
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: column;
+    background-color: $primary;
+    border: 1px solid $AltWhite; /* Styles the Border of the box */
+    box-shadow: 1px 1px 2px $White inset, -1px -1px 2px $White inset; /* Styles the outer border of the container */
+    border-radius: 3px/6px;
+    text-align: center;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 1em;
+    width: 546px;
+    max-width: 32em;
+    img {
+        width: 30em;
+        height: 20em;
+        border-radius: 0.4em;
+        margin: 0px auto;
+        transition: transform .5s ease, opacity .5s ease;
+        &:hover { /* Hover Event: Zooms into Image */
+            transform: scale(1.1);
+            cursor: pointer;
+            opacity: 0.7;
+        }
+    }
+    ol li {
+        text-align: left;
+        margin-top: 1em;
+    }
+}
+
+.github-container {
+    display: flex;
+    justify-content: center;
+    img {
+        width: 2em;
+        height: 2em;
+        margin: auto 0;
+    }
+    a {
+        margin: auto 0px;
+        text-decoration: none;
+    }
+}
+
+.github-container:hover {
+    background-color: $White;
+    border-radius: 2em;
+    width: 16em;
+    margin: 0px auto;
+    p {
+        color: $Black;
+    }
+>>>>>>> 2ec4e533341940ca1d3d4305f34d7b15457f5c00
 }

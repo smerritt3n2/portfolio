@@ -1,5 +1,6 @@
     <div class="grid-container">
         <div class="data-container">
+<<<<<<< HEAD
             <!--======================= WordPress Project 1 =============================-->
             <img src="img/Gallery images/WordPress Project/wordpress1.png">
             <h1 class="colour-change-b oribitron">Purplevillia</h1>
@@ -18,6 +19,8 @@
             <!--=========================================================================-->
         </div>
         <div class="data-container">
+=======
+>>>>>>> 2ec4e533341940ca1d3d4305f34d7b15457f5c00
             <!--======================= Project 1 =======================================-->
             <img src="img/Gallery images/project1.PNG">
             <h1 class="colour-change-b oribitron">Terracotta</h1>
@@ -203,6 +206,7 @@
             </ol>
             <!--=========================================================================-->
         </div>
+<<<<<<< HEAD
         <div class="data-container">
             <!--======================= Project 13 ======================================-->
             <img src="img/Gallery images/project14.PNG">
@@ -219,4 +223,6 @@
                 <li class="colour-change-b">Handle JavaScript Behaviours (Comment Changes & Maps)</li>
             </ol>
             <!--=========================================================================-->
+=======
+>>>>>>> 2ec4e533341940ca1d3d4305f34d7b15457f5c00
     </div>
