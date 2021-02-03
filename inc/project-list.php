@@ -203,4 +203,20 @@
             </ol>
             <!--=========================================================================-->
         </div>
+        <div class="data-container">
+            <!--======================= Project 13 ======================================-->
+            <img src="img/Gallery images/project14.PNG">
+            <h1 class="colour-change-b oribitron">Bakers Dozen</h1>
+            <div class="github-container">
+                <img src="img/Gallery images/GitHub_logo.png">
+                <a href="https://github.com/RheCreate/Project-Bakers-Dozen.git"><P>Link to Project</P></a>
+            </div>
+            <p>This was a <strong class="glow">paired group project</strong> where we was set certain tasks to complete within the website. In total once each person completed there objectives it was merged together to create this final result.</p>
+            <p>The theme of the website was a "Bakery", the roles that I was given are enlisted bellow;</p>
+            <ol>
+                <li class="colour-change-b">Creating the Contact us form</li>
+                <li>Incorporate the ReCaptcha Verification</li>
+                <li class="colour-change-b">Handle JavaScript Behaviours (Comment Changes & Maps)</li>
+            </ol>
+            <!--=========================================================================-->
     </div>
