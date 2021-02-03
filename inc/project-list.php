@@ -1,5 +1,23 @@
     <div class="grid-container">
         <div class="data-container">
+            <!--======================= WordPress Project 1 =============================-->
+            <img src="img/Gallery images/WordPress Project/wordpress1.png">
+            <h1 class="colour-change-b oribitron">Purplevillia</h1>
+            <div class="github-container">
+                <img src="img/Gallery images/GitHub_logo.png">
+                <a href="https://github.com/smerritt3n2/woocommerce_course.git"><P>Link to Project</P></a>
+            </div>
+            <p>This was a <strong class="glow">solo project</strong> where we had to create a shopping website that is capable of selling clothes to online user by using "WordPress" & the pluggin called "WooCommerce". Making the website more dynamic & usable to online users</p>
+            <p>The theme of the website was to sell "Clothes & Shoes" to online users. The website needed to complete certain tasks that where requested, which was;</p>
+            <ol>
+                <li class="colour-change-b">Displaying products in correct categories</li>
+                <li>Adding & Removing Items to basket (including editing the amount)</li>
+                <li class="colour-change-b">able to place orders/ purchase items</li>
+                <li>Able to see the amount of items in stock the shop has</li>
+            </ol>
+            <!--=========================================================================-->
+        </div>
+        <div class="data-container">
             <!--======================= Project 1 =======================================-->
             <img src="img/Gallery images/project1.PNG">
             <h1 class="colour-change-b oribitron">Terracotta</h1>

@@ -26,7 +26,7 @@
     <!--================================ Content Layout =====================================-->
         <div class="introduction-container">
             <h1 class="colour-change-b oribitron">Hello, my name is "Samuel Merritt"</h1>
-            <p>I am a Junior Website Programmer in HTML, CSS, SCSS and JAVA.</p>
+            <p>I am a Junior Website Programmer in HTML, CSS, SCSS, JAVA and WordPress.</p>
             <p class="colour-change-b">My dream goal is to expand my knowledge & skills of computer technology/ Web-Development. Feel free to take a look at my latest projects I have done on <strong class="indie-flower"><a href="gallery.php">web project page.</a></strong></p>
         </div>
     <!--=====================================================================================-->
